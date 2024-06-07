@@ -1,0 +1,251 @@
+body{
+    margin: 0;
+    background-color: rgb(255, 255, 255);
+    font-family: sans-serif;
+}
+.nav{
+    margin-top: 0;
+    overflow: hidden;
+    padding: 10px;
+}
+.nav-left{
+    font-size: 35px;
+    font-family: arian;
+    float: left;
+}
+.nav a {
+    text-decoration: none;
+    color: rgb(61, 58, 58);
+    float: right;
+    text-align: center;
+    padding: 30px;
+}
+.nav a:active{
+    color:  rgb(238, 107, 107);
+}
+.eff{
+    font-size: 20px;
+}
+.nav a:hover{
+    color: rgb(238, 107, 107);
+}
+
+@font-face{
+    font-family: arian;
+    src: url(ArianaVioleta-dz2K.ttf);
+}
+.first{
+    width: 100%;
+    height: 450px;
+    margin: 0;
+    display: flex;
+    flex-wrap: nowrap;
+}
+.shi{
+    margin-top: -50px;
+    margin-left: 140px;
+
+}
+.first_{
+    width: fit-content;
+    margin-left: 80px;
+}
+.first_ h1{
+    font-size: 50px;
+    margin-top: 100px;
+}
+.first_ p{
+    font-size: 25px;
+    margin-top: 30px;
+}
+.first_ a img{
+    margin-left: 10px;
+}
+.first button{
+    box-shadow: 8px 8px 8px 5px rgb(152, 152, 155);
+    background:linear-gradient(to right,rgb(171, 175, 236),rgba(145, 123, 223, 0.747));
+    border-radius: 18px;
+    border-width: 0;
+    padding: 10px;
+    margin-left: 30px;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    cursor: pointer;
+}
+.first button:hover{
+    background-color: none;
+    box-shadow: 0 12px 18px 6px rgb(113, 113, 116);
+}
+.btn {
+    display: inline-block;
+    padding: 0.9rem 1.8rem;
+    font-size: 16px;
+    font-weight: 700;
+    color: rgb(14, 13, 13);
+    border: 3px solid rgb(252, 70, 100);
+    cursor: pointer;
+    position: relative;
+    background-color: transparent;
+    text-decoration: none;
+    overflow: hidden;
+    z-index: 1;
+    font-family: inherit;
+   }
+   
+   .btn::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(252, 70, 100);
+    transform: translateX(-100%);
+    transition: all .3s;
+    z-index: -1;
+    color: rgb(255, 255, 255);
+   }
+   
+   .btn:hover::before {
+    transform: translateX(0);
+   }
+
+.second{
+    margin-top: 170px;
+    margin-left: 40px;
+    height: 550px;
+    font-size: 30px;
+    font-family: sans-serif;
+    width: 90%;
+    display: flex;
+}
+.txt{
+    width: 60%;
+}
+.txt h1{
+    font-family:monospace;
+}
+.txt h1:hover{
+    color: rgb(221, 203, 203);
+}
+@font-face{
+    font-family: new;
+    src: url(BlanksscriptpersonaluseBdit-jEM6O.otf);
+}
+.third{
+    width: fit-content;
+    height: 500px;
+    margin-left: 40px;
+    display: flex;
+    font-weight: bold;
+}
+.third h1{
+    font-size: 60px;
+}
+.third h1:hover{
+    color: rgb(221, 203, 203);
+}
+.htm{
+    background:linear-gradient(to left, rgb(201, 201, 90),rgb(224, 113, 224));
+    width: 710px;
+    border-radius: 20px;
+    height: 20px;
+    padding: 10px;
+    text-align: center;
+    transition: width 1s;
+}
+.css{
+    background:linear-gradient(to left, rgb(134, 201, 90),rgb(224, 113, 113));
+    width: 630px;
+    border-radius: 20px;
+    height: 20px;
+    padding: 10px;
+    text-align: center;
+    transition: width 1s;
+}
+.c{
+    background:linear-gradient(to left, rgb(206, 206, 135),rgb(161, 111, 161));
+    width: 500px;
+    border-radius: 20px;
+    height: 20px;
+    padding: 10px;
+    text-align: center;
+    transition: width 1s;
+}
+.cpp{
+    background:linear-gradient(to left, rgb(174, 95, 248),rgb(122, 159, 214));
+    width: 570px;
+    border-radius: 20px;
+    height: 20px;
+    padding: 10px;
+    text-align: center;
+    transition: width 1s;
+}
+
+.third img{
+    margin-top: 150px;
+}
+.contact{
+    width: 100%;
+    height: 600px;
+    margin-top: 40px;
+    margin-left: 40px;
+    display: flex;
+}
+.co_side{
+    width: 350px;
+    margin-top: 50px;
+    height: 450px;
+    position: static;
+    background-color: rgb(105, 230, 167);
+    padding-left: 20px;
+    padding-top: 30px;
+}
+.co_side a{
+    margin-left: 10px;
+}
+.send{
+    border-radius: 10px;
+    z-index: 1;
+    width: 900px;
+    height: 750px;
+    margin-left: -40px;
+    background-color: rgb(84, 218, 118);
+}
+.send h1{
+    margin-left: 70px;
+}
+form{
+    margin-left: 70px;
+}
+input[type=text] {
+    width: 50%;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: text;
+}
+input[type=text] :hover{
+    padding: 15px 20px;
+}
+input[type=number]{
+    width: 50%;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: text;
+}
+input[type=textarea]{
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: text;
+}
+input[type=submit]{
+    width: 10%;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    background: linear-gradient(to right,rgb(199, 218, 34),rgb(218, 162, 41));
+    border-color: none;
+}
